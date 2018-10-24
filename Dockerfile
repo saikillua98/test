@@ -1,2 +1,2 @@
 FROM centos
-RUN yum update && yum -y install docker
+RUN yum -y update && yum -y install docker
